@@ -15,7 +15,7 @@
 -sudo chown rabindra /etc/openvpn/easy-rsa/<br/>
 -cd /etc/openvpn/easy-rsa<br/>
 -ls<br/>
-![easy](https://user-images.githubusercontent.com/53372486/140648882-b7cd40ec-53b1-4375-ba81-45dc8beb5cdf.png)
+![easy](https://user-images.githubusercontent.com/53372486/140648882-b7cd40ec-53b1-4375-ba81-45dc8beb5cdf.png)<br/>
 -sudo cp /usr/share/doc/openvpn-2.4.11/sample/sample-config-files/server.conf /etc/openvpn/ <br/>
 -uncomment these command in /etc/openvpn/server.conf <br/>
  proto tcp<br/>

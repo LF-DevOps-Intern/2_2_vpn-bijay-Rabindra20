@@ -15,12 +15,12 @@ af-packet:<br/>
       use-mmap: yes<br/>
       tpacket-v3: yes<br/>
 
-![edit home](https://user-images.githubusercontent.com/53372486/140676867-827df825-646f-4511-bf14-45cd1ad1985a.png)
+![edit home](https://user-images.githubusercontent.com/53372486/140676867-827df825-646f-4511-bf14-45cd1ad1985a.png)<br/>
 -vim /usr/share/suricata/rules<br/>
-![rules](https://user-images.githubusercontent.com/53372486/140677631-73318c49-90de-40e5-903c-2eafbd1487c6.png)
+![rules](https://user-images.githubusercontent.com/53372486/140677631-73318c49-90de-40e5-903c-2eafbd1487c6.png)<br/>
 -alert http any any -> any any (msg:"Do not read gossip during work";<br/>
 content:"Scarlett"; nocase; classtype:policy-violation; sid:1; rev:1;)<br/>
-![test rules](https://user-images.githubusercontent.com/53372486/140677598-72da3dc4-91a1-49c2-8b25-061971e3d373.png)
+![test rules](https://user-images.githubusercontent.com/53372486/140677598-72da3dc4-91a1-49c2-8b25-061971e3d373.png)<br/>
 
 Add rules name in suricata.yaml<br/>
 -vi /usr/share/suricata/rules/suricata.yaml<br/>
